@@ -1,0 +1,28 @@
+body{
+
+    border: 6px;
+
+        background-color: #acafb1;
+    }
+    #paragrafo01{
+        font-size: 1.5em;
+    }
+    #paragrafo02{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    span{
+        background-color: rgb(106, 144, 201);
+    }
+    .format{
+        background-color: darkmagenta;
+        color: forestgreen;
+        font-size: 23px;
+        text-align:end;
+    }
+    abbr:hover{
+        background-color: red;
+    
+       
+}
