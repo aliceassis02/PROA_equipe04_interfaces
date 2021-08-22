@@ -1,0 +1,245 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2em;
+    color: white;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+
+}
+
+p {
+    font-size: 2em;
+    color:white;
+    font-family:'Mukta', sans-serif;
+
+    text-align:justify;
+    
+}
+
+
+body{
+    background-color: #121212;
+    padding: auto;
+  border-spacing: 0px;
+  justify-content: space-between;
+  
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    border: none;
+    outline: none;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 200px;
+    float: left;
+    padding: 35px 50px;
+   background-image: url(imagem/cabeçalho.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y: -15px;
+
+}
+.logo a {
+    width: 84px;
+    height: 97px;
+    float: left;
+    font-size: 0;
+}
+.cabecalho form {
+    width: 30%;
+    float: right;
+    
+
+}
+
+    
+
+.cabecalho input[type="text"] {
+    width: 100%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px;
+    background-color: rgba(100, 100, 100,10%);
+}
+
+.menu{
+    float: left;
+    width: 100%;
+ 
+
+}
+
+
+.menu li{
+    float: left;
+    padding: 10px 6%;
+
+}
+
+
+
+.menu li a{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+
+}
+.cabecalho h1{
+
+    font-size: 40px;
+    text-align: center;
+   color: whitesmoke;
+   font-family: 'Mukta', sans-serif;
+
+}
+
+.cabecalho button i{
+    float: right;
+font-size: 50px;
+background: none;
+background-position: 10px;
+
+
+
+
+}
+
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: red;
+    padding: 10px 7%;
+    
+
+}
+.rodape p{
+    color: #fff;
+text-align: center;
+}
+
+
+.livros{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    text-align: center;
+
+}
+.livros{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+.livros {
+    
+     text-align :center;
+    font-family:'roboto'sans-serif;
+    width:100%;
+    border-radius:10px 10px;
+    box-shadow:white;
+}
+
+.livros h3  {
+
+    text-align: center;
+    margin: 25px 5px 5px 5px;
+    color: white;
+
+}
+
+.podcast h3 {
+    color: white;
+    text-align: center;
+
+}
+.podcast div cor{
+
+    text-align: end;
+    color: white;
+}
+body.container{
+    align-items: center;
+justify-content: space-between;
+
+}
+
+h3.podcast {
+    color: #fff;
+}
+
+.cor {
+    color: #fff;
+}
+
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+li:hover {
+    background: #9d9d9d;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: inset 0 0 1em rgb(53, 53, 53), 0 0 1em rgb(255, 253, 253);
+}
+.form-control {
+    display: block;
+    width: 40%;
+    padding: 40;
+    font-size: 1rem;
+    font-weight: 40;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 30;
+    transition: border-color;
+}
+
+
+.form-control me-2{
+
+    width: 100%;
+}
+.livros a {
+    box-shadow: crimson;
+    border-bottom: crimson;
+
+}
